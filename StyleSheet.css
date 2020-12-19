@@ -1,0 +1,40 @@
+body {
+    font-family: "Amatic SC", cursive;
+    color: lavender;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    min-height: 100vh;
+    background-image: radial-gradient(rgb(174, 151, 151), #261f1f);
+    background-repeat: repeat;
+}
+
+#btn {
+    margin-top: 40px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1, #containerBtn {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: -5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#errorModal {
+    margin-top: 1em;
+}
+
+.containerDateTitle {
+    display: inline-block;
+    margin-bottom: 2px;
+}

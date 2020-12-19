@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <title>Consumo API</title>
+</head>
+
+<body id="body">
+    <div>
+        <h1>NASA Picture of the day !</h1>
+        <div>
+            <div id="containerBtn">
+                <button id="btn">
+                    Get it
+                </button>
+                <div id="errorModal"></div>
+            </div>
+
+            <div id="containerAll" hidden>
+                <div>
+                    <h2 class="containerDateTitle">Date:</h2>
+                    <span id="containerDate"></span>
+                </div>
+                <div>
+                    <h2 class="containerDateTitle">Title:</h2>
+                    <span id="containerTitle"></span>
+                </div>
+
+                <h2>Explanation:</h2>
+                <p id="containerExplanation"></p>
+
+                <img hidden id="containerMediaType" width="1000"></img>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="consumoAPI.js"></script>
+
+</body>
+
+</html>
